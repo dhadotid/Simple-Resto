@@ -8,6 +8,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.rsypj.restouts.R
 import com.rsypj.restouts.helper.loadCenterCropImage
 import com.rsypj.restouts.helper.loadImage
+import com.rsypj.restouts.helper.rupiah
 import com.rsypj.restouts.model.Food
 import kotlinx.android.synthetic.main.dialog_detail.view.*
 
@@ -37,6 +38,7 @@ class FoodDetail(private val data: Food
         view.image_detail.loadCenterCropImage(data.photo)
         view.title_detail.text = data.name
         view.layout_food_description.text = data.description
+        view.price_detail.text = rupiah(data.price.toDouble())
         view.detail_close.setOnClickListener { dismiss() }
     }
 }
