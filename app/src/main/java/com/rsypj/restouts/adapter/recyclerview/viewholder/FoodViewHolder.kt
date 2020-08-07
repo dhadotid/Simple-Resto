@@ -33,5 +33,9 @@ class FoodViewHolder(
         view.layout_food_description.text = food.description
         view.layout_food_price.text = rupiah(food.price.toDouble())
         view.layout_food_photos.loadCenterCropImage(food.photo)
+        if (!food.qty.isNullOrEmpty()){
+            view.layout_food_qty.text = "Qty: ${food.qty}"
+            view.layout_food_qty.visibility = View.VISIBLE
+        }
     }
 }

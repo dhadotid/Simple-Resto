@@ -6,3 +6,4 @@ package com.rsypj.restouts.helper
  */
 
 const val JSON_FILE = "foodlist.json"
+const val JSON_TRANSACTION = "transactionlist.json"

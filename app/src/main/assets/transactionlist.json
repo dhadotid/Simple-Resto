@@ -1,0 +1,60 @@
+﻿{
+  "response": 200,
+  "data": [
+    {
+      "category": "Makanan Berat",
+      "data": [
+        {
+          "id": "1",
+          "name": "Sate Taichan",
+          "price": "50000",
+          "qty": "2",
+          "description": "Sate taichan adalah makanan sate yang mantap!",
+          "photo": "https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/11/Resep-Sate-Taichan.jpg?fit=2295%2C2295&ssl=1"
+        },
+        {
+          "id": "2",
+          "name": "Bubur Ayam",
+          "price": "15000",
+          "qty": "1",
+          "description": "Bubur ayam adalah nasi yang terlalu banyak air:)",
+          "photo": "https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/09/Resep-Bubur-Ayam.jpg?fit=1300%2C1300&ssl=1"
+        }
+      ]
+    },
+    {
+      "category": "Makanan Ringan",
+      "data": [
+        {
+          "id": "5",
+          "name": "Donuts",
+          "price": "15000",
+          "qty": "1",
+          "description": "Apapun makannya dessertnya tetep harus yang manis ya",
+          "photo": "https://sifu.unileversolutions.com/image/id-ID/recipe-topvisual/2/1260-709/donat-kentang-50321491.jpg"
+        },
+        {
+          "id": "9",
+          "name": "Cireng Goreng",
+          "price": "3000",
+          "qty": "1",
+          "description": "Cireng dengan isian pedas",
+          "photo": "https://cdn1-production-images-kly.akamaized.net/doruRqJie5ThjtaN7sbRx7U6vrM=/219x0:585x366/640x640/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2227836/original/016151400_1527239579-resep-cireng-bumbu-rujak.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Minuman",
+      "data": [
+        {
+          "id": "13",
+          "name": "Green Tea",
+          "price": "16000",
+          "qty": "1",
+          "description": "Teh Hijau",
+          "photo": "https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2017/01/green-tea.jpg"
+        }
+      ]
+    }
+  ]
+}

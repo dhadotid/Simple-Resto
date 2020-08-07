@@ -40,5 +40,6 @@ class FoodDetail(private val data: Food
         view.layout_food_description.text = data.description
         view.price_detail.text = rupiah(data.price.toDouble())
         view.detail_close.setOnClickListener { dismiss() }
+        view.detail_add.setOnClickListener { dismiss() }
     }
 }
